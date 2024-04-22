@@ -11,6 +11,7 @@
 <script lang="ts">
 export default {
     name: 'Person', // 组件名
+    // vue2中的配置式写法
     data() {
         return {
             name: '张三',
