@@ -16,7 +16,7 @@
 </script> -->
 
 
-// 需要安装插件  npm i vite-plugin-vue-setup-extend 并在vite.config.ts文件中注册
+<!-- 需要安装插件  npm i vite-plugin-vue-setup-extend 并在vite.config.ts文件中注册 -->
 <script lang="ts" setup name="Person456">
     // 数据   
     let name = '张三'
