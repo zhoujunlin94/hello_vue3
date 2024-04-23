@@ -11,7 +11,7 @@
 <script lang="ts" setup name="Person">
     import {ref} from 'vue'
 
-    // 数据  响应式数据用ref包裹 RefImpl对象
+    // 数据  响应式数据(基本数据类型)用ref包裹 => RefImpl对象
     let name = ref('张三')
     let age = ref(30)
     let tel = 18500000000
