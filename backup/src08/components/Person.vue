@@ -19,6 +19,7 @@
 <script lang="ts" setup name="Person">
 import { reactive } from 'vue'
 
+// reactive只能定义对象类型响应式数据
 // reactive让对象类型数据变成响应式  Proxy对象
 let car = reactive({
     brand: '思域',
